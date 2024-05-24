@@ -1,0 +1,181 @@
+.MainInvite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    font-family: 'Caveat';
+    color: white;
+}
+
+.imagetop {
+    margin-bottom: 10px;
+}
+
+.container {
+    position: relative; 
+    z-index: 2;
+    width: 90%;
+    background-color: rgba(182, 126, 49, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading1 {
+    font-size: 50px; 
+    color: white;
+}
+
+.line {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+}
+
+.date2 {
+    font-family: 'Roboto Mono';
+    color: white;
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.address1{
+    font-size: 30px;
+}
+.address2{
+    font-size: 20px;
+}
+
+.navigate-button{
+    margin-top: 20px;
+    font-family: 'Roboto Mono';
+    border: 2px solid #000;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.Names{
+    font-size: 30px;
+}
+
+.Family{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.Person{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.Designation{
+    font-family: 'Roboto Mono';
+    font-size: 12px;
+}
+.leaf1 {
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    transform: rotate(45deg);
+    z-index: 1; 
+    height: 500px;
+}
+
+.leaf2 {
+    position: absolute;
+    top: 750px;
+    right: 200px;
+    transform: rotate(-45deg); 
+    z-index: 3; 
+    height: 400px;
+}
+
+@media (max-width: 480px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .imagetop{
+        width: 300px;
+    }
+    .heading1 {
+        font-size: 35px;
+    }
+
+    .line{
+        margin-top: 20px;
+        width: 250px;
+    }
+
+    .date2 {
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+    .address1 {
+        font-size: 30px;
+    }
+
+    .address2 {
+        font-size: 20px;
+    }
+
+    .navigate-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        height: 40px;
+        margin-bottom: 50px;
+    }
+    .Family{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .Person{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 15px;
+    }
+    
+    .Designation{
+        font-family: 'Roboto Mono';
+        font-size: 10px;
+    }
+
+    .Names {
+        font-size: 30px;
+    }
+
+    .leaf1{
+        height: 300px;
+        margin: 10px;
+        left:0px;
+        transform: rotate(45deg);
+    }
+    .leaf2 {
+        top:770px;
+        height: 250px;
+        margin: 10px;
+        right: 0px;
+    }
+}

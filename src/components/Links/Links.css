@@ -1,0 +1,77 @@
+.links{
+    font-family: 'Caveat';
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.heading{
+    background-color: #B67E31;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.link-button {
+    font-family: 'Caveat';
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 25px;
+    color: #000;
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 200px;
+}
+
+.link-button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .heading {
+        font-size: 24px;
+        height: auto;
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+
+    .link-button {
+        font-size: 20px;
+        padding: 8px 16px;
+        width: 180px;
+        margin-top: 15px;
+    }
+
+    .links {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading {
+        font-size: 20px;
+        padding: 8px;
+        margin-bottom: 30px;
+    }
+
+    .link-button {
+        font-size: 18px;
+        padding: 6px 12px;
+        width: 160px;
+        margin-top: 10px;
+    }
+
+    .links {
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,95 @@
+.events {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .heading {
+    background-color: rgba(182, 126, 49, 0.8);
+    font-family: 'Caveat';
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+  }
+  
+  .date1 {
+    font-family: 'Roboto Mono';
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .event {
+    margin: 40px;
+  }
+  
+  .title {
+    font-size: 30px;
+    font-family: 'Caveat';
+  }
+  
+  .time {
+    font-family: 'Roboto Mono';
+  }
+  
+  .image {
+    position: absolute;
+    z-index: -1;
+    opacity: 2;
+  }
+  
+  
+  .image.left {
+    margin-top: 100px;
+    left: 0;
+    height: 400px;
+  }
+  
+  .image.right {
+    right: 0;
+    height: 200px;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .events {
+      display: block;
+    }
+    
+    .heading {
+      font-size: 24px;
+      height: auto;
+      padding: 10px 0;
+    }
+  
+    .event{
+        margin: 35px;
+    }
+    .date {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+  
+    .title {
+      font-size: 20px;
+    }
+  
+    .image.left {
+      left: 0;
+      height: 400px;
+      width: 100px;
+    }
+  
+    .image.right {
+      right: 0;
+      margin-top: 10px;
+      height: 200px;
+      width: 100px;
+    }
+  }
